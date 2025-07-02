@@ -161,16 +161,15 @@ main {
   font-size: 18px;
 }
 
-.btn {
-  display: inline-block;
-  background-color: #28a745;
+.product .btn {
+  background-color: #28a745; /* Verde exemplo */
   color: white;
-  padding: 10px 18px;
-  margin-top: 10px;
-  text-decoration: none;
+  padding: 8px 12px;
   border-radius: 4px;
-  font-weight: bold;
-  transition: background-color 0.3s;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  user-select: none;
 }
 
 .btn:hover {
